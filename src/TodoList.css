@@ -1,0 +1,74 @@
+.todo-container {
+    width: 96%;
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-inputs {
+    margin-bottom: 10px;
+  }
+  
+  .todo-inputs input {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .todo-inputs button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    display: fixed;
+  }
+  
+  .todo-item {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #deedd3;
+    border-radius: 8px;
+    background-color: #a1f482;
+  }
+  
+  .todo-item h3 {
+    margin: 0 0 40px;
+    font-size: 18px;
+  }
+  
+  .todo-item p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .todo-item .status {
+    margin-top: 10px;
+  }
+  
+  .todo-item select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .todo-item button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-item .completed {
+    background-color: #11e809; /* Light green */
+  }
+  
